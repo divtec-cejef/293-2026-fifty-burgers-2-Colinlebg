@@ -61,6 +61,22 @@ main .ingredients li {
     padding: 10px 40px;
 }
 
+main .ingredients li:first-child {
+    border-radius: 30px 30px 0 0;
+}
+
+main .ingredients li:nth-child(even) {
+    border-top: 5px solid #FDC032;
+    background-color: #823922;
+    border-bottom: 10px solid #00A24B;
+}
+
+main .ingredients li:last-child {
+    border-radius: 0 0 30px 30px;
+    background-color: #E8A062;
+    border: none;
+}
+
 img {
     max-width: 100%;
     height: auto;
