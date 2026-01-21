@@ -13,8 +13,9 @@ header img {
 }
 
 h1 {
-    color: #E8A062;
+    color: #FDC032;
     font-size : 4rem;
+    line-height: .9;
 }
 
 body {
@@ -24,6 +25,15 @@ body {
     line-height: 1.4;
     color: black;
     background-color: white;
+}
+
+h1, h2 {
+    font-family: Georgia;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 60px 0 20px;
 }
 
 main {
@@ -36,6 +46,19 @@ main p.introduction{
     font-size: 1.3rem;
     font-style: italic;
     text-transform: uppercase;
+}
+
+main ul.ingredients {
+    list-style-type: none;
+    padding: 0;
+    max-width: 95%;
+    margin: 40px auto;
+}
+
+main .ingredients li {
+    background-color: #E8A062;
+    color: #ffffff;
+    padding: 10px 40px;
 }
 
 img {
@@ -58,10 +81,10 @@ footer {
 }
 
 a {
-    color: deeppink;
+    color: #00A24B;
     text-decoration: none;
 }
 
 a:hover {
-    color: darkmagenta;
+    color: #E8A062;
 }
