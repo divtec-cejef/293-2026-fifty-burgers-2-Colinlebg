@@ -22,8 +22,8 @@ body {
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.4;
-    color: darkblue;
-    background-color: whitesmoke;
+    color: black;
+    background-color: white;
 }
 
 main {
@@ -32,10 +32,29 @@ main {
     margin: auto;
 }
 
+main p.introduction{
+    font-size: 1.3rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
 img {
     max-width: 100%;
     height: auto;
     width: auto;
+}
+
+footer {
+    background-color: #823922;
+    color: white;
+    padding: 10px;
+    margin: 20px auto 40px;
+    text-align: center;
+    max-width: 400px;
+    min-height: 50px;
+    border-top: #E8A062 solid 30px;
+    border-bottom: #E8A062 solid 30px;
+    border-radius: 30px;
 }
 
 a {
